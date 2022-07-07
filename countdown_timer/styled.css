@@ -30,9 +30,8 @@ h1 {
 }
 .countdown-container {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding: 0px 40px;
 }
 span {
@@ -40,5 +39,5 @@ span {
 }
 div {
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
 }
